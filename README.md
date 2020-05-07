@@ -2,6 +2,7 @@
 
 This project uses Flask to deploy a content-based movie recommendation system. Provide a movie title and 10 recommended movies based on this title will be provided. Don't know the exact movie title? The application will give suggestions based on your spelling. 
 
+Deployed Web Application - [CLICK HERE](http://cb-movie-recommendation-system.herokuapp.com/)
 
 ### What is the importance of deploying this project end-to-end?
   - Deployment is often an overlooked phase from many theoretical data scientists.
@@ -26,8 +27,6 @@ This project uses Flask to deploy a content-based movie recommendation system. P
          users. However, some characteristics of items/users may not be easy to capture or describe explicitly.
       </li>
    </ul>
-
-Deployed Web Application - [CLICK HERE](http://cb-movie-recommendation-system.herokuapp.com/)
 
 <p align="right">
   <sub><sup>Project based on <a href="https://medium.com/@pklappy21/movie-recommendation-system-python-flask-web-application-heroku-deployment-7e39492b640c?source=friends_link&sk=6efee6fd96fe37c033235015dc9b0950">this</a> article.
