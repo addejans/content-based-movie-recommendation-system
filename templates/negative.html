@@ -407,7 +407,7 @@
           filtered_names.push('<li> '+title_name+'<br>');
       }
 	  //filtered_names.push(list_of_similar);
-      if(filtered_names.length<1){
+      if(list_of_similar == ""){
           document.getElementById("suggestions").innerHTML = "It seems that either the movie name is misspelled badly or not registered in the database.";
       }else{
           document.getElementById("suggestions").innerHTML = filtered_names.join('');  
