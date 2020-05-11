@@ -27,6 +27,9 @@ Deployed Web Application - [CLICK HERE](http://cb-movie-recommendation-system.he
          users. However, some characteristics of items/users may not be easy to capture or describe explicitly.
       </li>
    </ul>
+   
+![alt text](static/img/movieRec-cb.jpg)
+
 
 <p align="right">
   <sub><sup>Project based on <a href="https://medium.com/@pklappy21/movie-recommendation-system-python-flask-web-application-heroku-deployment-7e39492b640c?source=friends_link&sk=6efee6fd96fe37c033235015dc9b0950">this</a> article.
