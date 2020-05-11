@@ -12,6 +12,7 @@ count = CountVectorizer(stop_words='english')
 count_matrix = count.fit_transform(df_tmbd['engineered_feature']) # field composed of: director names, cast, keywords, & genre attributes
 
 df_tmbd = df_tmbd.reset_index()
+df_tmbd['title'] = df_tmbd['title'].str.title()
 indices = pd.Series(df_tmbd.index, index=df_tmbd['title'])
 all_titles = [df_tmbd['title'][i] for i in range(len(df_tmbd['title']))]
 
